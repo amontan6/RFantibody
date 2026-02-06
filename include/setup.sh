@@ -10,10 +10,10 @@ wget https://data.dgl.ai/wheels/torch-2.3/cu118/dgl-2.4.0%2Bcu118-cp310-cp310-ma
 
 # Build the USAlign binaries
 cd $currdir/USalign &&
-make &&
+make #&&
 
 # Build the Python package
-cd /home &&
-poetry install &&
+#cd /home &&
+#poetry install &&
 
-echo "Setup successful."
+#echo "Setup successful."
